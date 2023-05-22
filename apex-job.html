@@ -38686,24 +38686,17 @@ responsive-admin
 
   <div class="foot-bg" bis_skin_checked="1">
     <div class="foot-top" bis_skin_checked="1">
-      <div class="container" bis_skin_checked="1">
+      <div class="container flex flex-col gap-10 py-5 px-6 border-t-2 border-secondary" bis_skin_checked="1">
         <div class="row" bis_skin_checked="1">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" bis_skin_checked="1">
 
-            <div class="foot" bis_skin_checked="1">
-              <div class="row" bis_skin_checked="1">
-
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" bis_skin_checked="1">
-                  <div class="foot-logo" bis_skin_checked="1">
-                    <a href="#home">
-                      <img src="img/logo.png" alt=""></a>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" bis_skin_checked="1">
-                  <div class="foot-links" bis_skin_checked="1">
-                    <h4>NAVIGATION</h4>
-                    <ul class="flex flex-col gap-2">
+            <div class="foot-content grid grid-cols-1 gap-10 tablet:grid-cols-3 laptop:py-6">
+            <a href="#home">
+              <img src="img/logo.png" alt="">
+            </a>
+            <div class="navigation flex flex-col gap-5">
+                <h3 class="text-xl text-accent font-bold laptop:text-2xl">Navigation</h3>
+                <ul class="flex flex-col gap-2">
                     <li>
                         <a href="#home" class="text-sm font-semibold leading-6 text-text hover:underline duration-500">Home</a>
                     </li>
@@ -38714,44 +38707,25 @@ responsive-admin
                         <a href="#packages" class="text-sm font-semibold leading-6 text-text hover:underline duration-500">Our Packages</a>
                     </li>
                 </ul>
-                  </div>
-                </div>
-
-                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12" bis_skin_checked="1"></div>
-
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" bis_skin_checked="1">
-                  <div class="foot-add" bis_skin_checked="1">
-                    <h4>OUR COMPANY</h4>
-                    <p class="text-text">
-                    <i class="fa-solid fa-location-dot text-btn"></i>
+            </div>
+            <div class="our-company flex flex-col gap-5">
+                <h3 class="text-xl text-accent font-bold laptop:text-2xl">Our Company</h3>
+                <p class="text-text">
+                    <i class="fa-solid fa-location-dot text-accent"></i>
                     company location
                 </p>
                 <p class="text-text">
-                    <i class="fa-solid fa-envelope text-btn"></i>
+                    <i class="fa-solid fa-envelope text-accent"></i>
                     company@gmail.com
                 </p>
                 <p class="text-text">
-                    <i class="fa-solid fa-phone text-btn"></i>
+                    <i class="fa-solid fa-phone text-accent"></i>
                     +13035918498
                 </p>
-                  </div>
-                </div>
-
-              </div>
             </div>
-
-          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="foot-bottom" bis_skin_checked="1">
-      <div class="container" bis_skin_checked="1">
-        <div class="row" bis_skin_checked="1">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" bis_skin_checked="1">
-
-            <div class="copy flex justify-center border-t-2 border-secondary py-5">
-            <p class="text-text text-[16px] text-center" id="copyright">
+        <div class="copy flex justify-center border-t-2 border-secondary pt-5">
+            <p class="text-text font-semibold text-center" id="copyright">
                 &copy; <span id="currentYear"></span> Design by <a class="hover:underline" href="https://www.softzenith.com">Softzenith</a>. All rights reserved.
             </p>
         </div>
